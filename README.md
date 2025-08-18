@@ -43,8 +43,8 @@ A systematic comparison of the NMOT solver against a theoretical brute-force Sin
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/YOUR_USERNAME/nemot-coulomb-transport.git
-    cd nemot-coulomb-transport
+    git clone (https://github.com/Elotmanix/Neural-Networks-Based-Approache-for-Multimarginal-Optimal-Transport-Problems-with-Coulomb-Cost)
+    cd Neural-Networks-Based-Approache-for-Multimarginal-Optimal-Transport-Problems-with-Coulomb-Cost
     ```
 
 2.  Create and activate a virtual environment (recommended):
@@ -89,7 +89,7 @@ python main.py benchmark
 ## Project Structure
 
 ```
-nemot-coulomb-transport/
+Neural-Networks-Based-Approache-for-Multimarginal-Optimal-Transport-Problems-with-Coulomb-Cost/
 ├── main.py                 # Main script to run experiments
 ├── README.md               # This file
 ├── requirements.txt        # Project dependencies
