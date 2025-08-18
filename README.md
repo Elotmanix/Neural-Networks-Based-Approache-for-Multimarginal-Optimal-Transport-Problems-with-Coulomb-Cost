@@ -4,6 +4,7 @@
 ![PyTorch Version](https://img.shields.io/badge/pytorch-1.10+-orange.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
+
 This repository contains the official PyTorch implementation for the paper: **"Neural-Networks Based Approache for Multimarginal Optimal Transport Problems with Coulomb Cost"** by Hamza Elotmani.
 
 This project introduces a novel approach, Neural Multimarginal Optimal Transport (NMOT), which leverages the scalability of neural networks to solve the multimarginal optimal transport (MOT) problem with a Coulomb cost. This problem is central to understanding electron correlation in the strong interaction limit of Density Functional Theory (DFT).
