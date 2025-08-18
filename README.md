@@ -16,7 +16,7 @@ Our method parameterizes the dual potentials of the entropically regularized MOT
 The traditional Kantorovich formulation of the MOT problem is computationally expensive. We instead solve its entropically regularized dual formulation:
 
 $$
-\max_{u} \left \{ N \int u(x)d\mu(x) - \epsilon \int \exp\left(\frac{\sum_{i=1}^N u(x_i) - c(X)}{\epsilon}\right) d\mu^{\otimes N}(X) \right \}
+\max_{u} \Big\lbrace N \int u(x)d\mu(x) - \epsilon \int \exp\Big(\frac{\sum_{i=1}^N u(x_i) - c(X)}{\epsilon}\Big) d\mu^{\otimes N}(X) \Big\rbrace
 $$
 
 
