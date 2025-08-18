@@ -20,7 +20,7 @@ $$
 
 Instead of discretizing the functions on a grid, we represent the dual potential `u(x)` with a single neural network `f_θ(x)`. The maximization is then performed by training the network's parameters `θ` via stochastic gradient descent on mini-batches of samples, making the method scalable and memory-efficient.
 
-![Scalability Benchmark](https://raw.githubusercontent.com/YOUR_USERNAME/nemot-coulomb-transport/main/plots/benchmark_mc_vs_N.png)
+![Scalability Benchmark](plots/benchmark_nmot_vs_N.png)
 *(**Action Required:** After running the benchmark, commit the generated plot `benchmark_mc_vs_N.png` to your repository so it appears here.)*
 
 ## Implemented Experiments
@@ -43,7 +43,7 @@ A systematic comparison of the NMOT solver against a theoretical brute-force Sin
 
 1.  Clone the repository:
     ```bash
-    git clone (https://github.com/Elotmanix/Neural-Networks-Based-Approache-for-Multimarginal-Optimal-Transport-Problems-with-Coulomb-Cost)
+    git clone https://github.com/Elotmanix/Neural-Networks-Based-Approache-for-Multimarginal-Optimal-Transport-Problems-with-Coulomb-Cost
     cd Neural-Networks-Based-Approache-for-Multimarginal-Optimal-Transport-Problems-with-Coulomb-Cost
     ```
 
