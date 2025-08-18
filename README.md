@@ -102,19 +102,7 @@ Neural-Networks-Based-Approache-for-Multimarginal-Optimal-Transport-Problems-wit
     └── run_benchmark.py
 ```
 
-## Citation
 
-If you use this code in your research, please consider citing the original paper:
-
-```bibtex
-@article{elotmani2024nmot,
-  author  = {Elotmani, Hamza},
-  title   = {Neural-Networks Based Approache for Multimarginal Optimal Transport Problems with Coulomb Cost},
-  journal = {arXiv preprint},
-  year    = {2024},
-  note    = {Fictional entry for demonstration purposes}
-}
-```
 
 ## Acknowledgments
 
