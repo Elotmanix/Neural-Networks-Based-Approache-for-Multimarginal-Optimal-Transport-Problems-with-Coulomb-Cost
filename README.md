@@ -19,6 +19,7 @@ $$
 \max_{u} \left\{ N \int u(x)d\mu(x) - \epsilon \int \exp\left(\frac{\sum_{i=1}^N u(x_i) - c(X)}{\epsilon}\right) d\mu^{\otimes N}(X) \right\}
 $$
 
+
 Instead of discretizing the functions on a grid, we represent the dual potential `u(x)` with a single neural network `f_θ(x)`. The maximization is then performed by training the network's parameters `θ` via stochastic gradient descent on mini-batches of samples, making the method scalable and memory-efficient.
 
 ![Scalability Benchmark](plots/benchmark_nmot_vs_N.png)
