@@ -23,7 +23,7 @@ $$
 Instead of discretizing the functions on a grid, we represent the dual potential `u(x)` with a single neural network `f_θ(x)`. The maximization is then performed by training the network's parameters `θ` via stochastic gradient descent on mini-batches of samples, making the method scalable and memory-efficient.
 
 ![Scalability Benchmark](plots/benchmark_nmot_vs_N.png)
-*(**Action Required:** After running the benchmark, commit the generated plot `benchmark_mc_vs_N.png` to your repository so it appears here.)*
+
 
 ## Implemented Experiments
 
